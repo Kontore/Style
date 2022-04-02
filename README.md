@@ -1,2 +1,2 @@
-# StyleCop
-The organization info about StyleCop, the C# linter. See [Kontore/StyleCop/wiki](https://github.com/Kontore/StyleCop/wiki) for more information.
+# Style
+The style info of the organization. See [Kontore/Style/wiki](https://github.com/Kontore/Style/wiki) for more information.
