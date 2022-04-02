@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>Kontore.StyleCop</id>
+		<version>1.0.1</version>
+		<description>StyleCop configurations for the Kontore organization.</description>
+		<authors>tigerros</authors>
+		<license type="expression">MIT</license>
+		<licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+		<iconUrl>https://raw.githubusercontent.com/Kontore/About/df7ca57a9d7ad26064e7d92d58c75fe8c7779b97/Images/StralsundCityHall_512x512.jpg</iconUrl>
+		<projectUrl>https://github.com/Kontore/StyleCop</projectUrl>
+		<repository type="git" url="https://github.com/Kontore/StyleCop" />
+		<dependencies>
+			<dependency id="StyleCop.Analyzers" version="1.1.118" />
+		</dependencies>
+		<contentFiles>
+			<files include="**/StyleCop.json" buildAction="EmbeddedResource" />
+			<files include="**/GlobalSuppresion.cs" buildAction="EmbeddedResource" />
+		</contentFiles>
+	</metadata>
+	<files>
+		<file src="Kontore.StyleCop.props" target="build" />
+	</files>
+</package>
